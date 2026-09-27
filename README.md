@@ -3,6 +3,8 @@
 A desktop app that turns burned-in (hardsubbed) Korean captions into a timed
 `.srt` file. Open a video, drag a box around the caption area, click Run.
 
+![Korean OCR Subtitle Extractor: a caption region selected on a video frame, with the cropped preview below](docs/screenshot.png)
+
 Uses `ffmpeg` for frame extraction and `PaddleOCR` for recognition, with a
 Tkinter GUI (`app.py`) on top. Frames are only re-OCR'd when the caption
 region changes, and consecutive identical lines are merged into one cue.
