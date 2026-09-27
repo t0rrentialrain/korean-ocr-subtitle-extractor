@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artifacts (e.g. from a future PyInstaller packaging step)
+build/
+dist/
+*.spec
+
+# Bundled binaries — only added locally when packaging a standalone build,
+# never checked in (ffmpeg.exe/ffprobe.exe are ~200MB+ each)
+bin/*.exe
+
+# Runtime scratch files
+*.ocr_tmp.jpg
+_app_screenshot.png
+
+# OS cruft
+.DS_Store
+Thumbs.db

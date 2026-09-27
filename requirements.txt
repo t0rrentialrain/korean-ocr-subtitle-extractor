@@ -1,0 +1,5 @@
+paddlepaddle
+paddleocr
+pillow
+numpy
+kiwipiepy
